@@ -14,7 +14,7 @@ const NumberSelector = ({error,setError, selectedNumber,setSelectedNumber} ) => 
       <p className="error">{error}</p>
       <div className="flex">
         {arrNumber.map((value, i) => {
-          return (
+          return ( 
             <Box
               isSelected={value === selectedNumber}
               key={i}
