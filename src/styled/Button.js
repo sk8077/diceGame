@@ -10,7 +10,7 @@ export const Button = styled.button`
   font-size:20px;
   border: 1px solid transparent;
   cursor: pointer;
-  transition:0.4s background ease-in;
+  transition:0.4s background ease-in; 
 
   &:hover{
     background-color:white;

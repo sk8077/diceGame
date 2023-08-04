@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
+// eslint-disable-next-line react/prop-types
 const RoleDice = ({currentDice, onRoleDice}) => {
 
   return (
     <DiceContainer>
       <div className="dice" onClick={onRoleDice}>
-        <img src={`/images/dice/dice_${currentDice}.png`}alt="dice1" />
+        <img src={`./images/dice/dice_${currentDice}.png`} alt="dice1" />
       </div>
       <p>Click on Dice to roll</p>
     </DiceContainer>

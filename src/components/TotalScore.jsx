@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 
+// eslint-disable-next-line react/prop-types
 const TotalScore = ({score}) => {
   return (
     <ScoreContainer>

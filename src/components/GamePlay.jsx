@@ -21,9 +21,9 @@ const GamePlay = () => {
       setError("You have not selected any number");
       return;
     }
-
+ 
     const randomNumber = generateRandomNumber(1, 6);
-    setCurrentDice((prev) => randomNumber);
+    setCurrentDice(() => randomNumber);
 
     if (selectedNumber === randomNumber) {
       setScore((prev) => prev + randomNumber);

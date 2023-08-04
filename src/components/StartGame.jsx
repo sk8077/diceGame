@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Button } from "../styled/Button";
 
+// eslint-disable-next-line react/prop-types
 const StartGame = ({toggle}) => {
   return (  
     <Container>   
@@ -13,7 +14,7 @@ const StartGame = ({toggle}) => {
   );
 };
 
-export default StartGame;
+export default StartGame; 
 
 const Container = styled.div`
 margin-left:300px;
